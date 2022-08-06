@@ -1,0 +1,13 @@
+
+
+int x = 5
+int y = 5
+int x = x+y
+delete(y)
+
+main() # For now you dont need to add it, but you can only add int
+{
+  print("Hello World! 5+5=", x,". You can't normaly do that right.") # Where's the semicollon. Oh, you dont need one
+  print("Semicollon required");return 0;
+}
+# That's what I will work with today and I think for this week.
