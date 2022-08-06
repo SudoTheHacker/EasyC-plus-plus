@@ -10,6 +10,3 @@ while x != clenght:
             print("newline")
     x=x+1
 
-
-def variable():
-    int
