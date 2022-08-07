@@ -1,2 +1,6 @@
-
-int x = 5
+main()
+{
+  int x = 5*5+5
+  print("Hello World! 5*5+5=", x); # Don't forget pemdas #
+  return 0;
+}
