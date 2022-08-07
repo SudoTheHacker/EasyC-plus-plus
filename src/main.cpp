@@ -2,9 +2,25 @@
 #include <fstream>
 #include <string>
 
-std::ifstream code("script.ecpp")
+// First get data type
+
+// Then name
+// Detect if variable or function
 
 int main()
 {
-    return 0;
+  std::ifstream script("script.ecpp");
+  std::string code[] = {};
+  int x = 0;
+  if (script.is_open())
+  {
+    std::string line;
+    while(getline(script, line))
+    {
+      code[x] = line;
+      x++;
+    }
+    script.close();
+  }
+  return 0;
 }
